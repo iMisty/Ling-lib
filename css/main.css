@@ -1,0 +1,67 @@
+/*Reset*/
+html,head{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    text-align: center;
+}
+
+a,div,section,article,footer,nav,h1,h2,h3,p,i{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: #888888;
+    transition-duration: 0.5s;
+}
+a:hover{
+    text-decoration: none;
+    transition-duration: 0.5s;
+    color: #222222;
+}
+/*Header*/
+.home-header{
+    background-color: #9dc8c8;
+    height: 30em;
+}
+.home-nav{
+    position: fixed;
+    margin-top: 1.5em;
+    left: 1.5em;
+}
+.home-header-title{
+    padding-top: 10em;
+}
+/*Tech*/
+.home-tech{
+    text-align: center;
+    background-color: #58c9b9;
+    height: 30em;
+    column-count: 2;
+}
+.home-tech-section{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.home-tech-title{
+    padding-top: 1.5em;
+}
+i{
+    padding: 0.5em;
+}
+.tech-title{
+    font-size: 2.5em;
+    padding: 1.5em;
+}
+
+
+/*Blog*/
+.home-blog{
+    background-color: #519d9e;
+    height: 40em;
+}
+.home-foot{
+    background-color: #d1b6e1;
+    height: 10em;
+}
