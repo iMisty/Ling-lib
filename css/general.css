@@ -1,6 +1,6 @@
 /*CSS written by JingYi21*/
 
-/*重置*/
+/*Reset*/
 *{
     margin:0;
     padding:0;
@@ -10,7 +10,6 @@ div,section,article,footer,ul,li,a,h1,h2,h3,h4,h5,h6,p,nav,button,span{
 }
 body{
     overflow-x: hidden;
-    background-image: url(../img/notes-514998_1920.jpg);
     background-repeat: round;
     background-attachment: fixed;
     opacity: 0.9;
@@ -47,6 +46,11 @@ button{
     transition: 0.5s;
 }
 
+/* Background */
+body{
+    background-image: url(../img/notes-514998_1920.jpg);
+
+}
 /*导航条*/
 .nav{
     width: 100%;
