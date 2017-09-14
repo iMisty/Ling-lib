@@ -146,6 +146,11 @@ button{
 }
 
 /*随便写写部分*/
+.write{
+    background-image: url(../img/rainbow-bridge-2086643_1920.jpg);
+    background-repeat: round;
+    background-attachment: fixed;
+}
 .write-text{
     width: 80%;
     text-align: center;
