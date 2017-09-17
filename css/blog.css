@@ -1,13 +1,6 @@
-/*About*/
-.fixed{
-    position: fixed;
-}
-
-.about-wrap{
-    background-color: rgba(50,50,50,0.6);
-    width: 100%;
-    margin: 0 auto;
-    color: #fff;
+/*CSS written by JingYi21*/
+.blog-wrap{
+    background-color: rgba(0,0,0,0.5);
     padding-top: 5em;
 }
 .section-left{
@@ -44,22 +37,30 @@
 .section-right{
     width: 70%;
     margin-left: 20%;
-    padding-bottom: 10em;
+    padding-bottom: 4em;
     min-height: 15em;
+    color: #fff;
+    border: 0.5em solid #999999;
+    background-color: rgba(120,120,120,0.5);
 }
-.making{
-    text-align: center;
-    padding: 5em;
+.section-right-text{
+    padding: 3em 0 0 3em;
+    margin-right: 3em;
 }
-.about-title{
-    font-size: 2em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+.right-article{
     border-top: 0.125em dotted #FFFFFF;
     border-bottom: 0.125em dotted #FFFFFF;
+
 }
-.about-text{
-    padding-top: 3em;
-    font-size: 1.4em;
-    padding-bottom: 3em;
+.article-title{
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 0.0125em solid #ffffff;
+}
+.article-content{
+    line-height: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    text-overflow: clip;
 }
