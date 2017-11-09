@@ -8,16 +8,28 @@
     <link rel="icon" href="img/favicon.ico">
 </head>
 <body>
-    <nav class="nav">
-        <span class="nav-logo"></span>
-        <div class="nav-bar">
-            <div class="nav-bar-item"><a href="index.html">首页</a></div>
-            <div class="nav-bar-item"><a href="404.html">作品</a></div>
-            <div class="nav-bar-item"><a href="blog.html">博客</a></div>
-            <div class="nav-bar-item"><a href="about.html">关于</a></div>
+    <div id="nav-header">
+        <div class="logo">
+            <a href="#">Lings</a>
         </div>
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="button">
+            <a href="#" class="fa fa-bars" id="button"></a>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#">Index</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Content</a></li>
+            </ul>
     </nav>
-    <div class="wrap">
+    </div>
+
+    <!--
+        <div class="wrap">
         <section class="banner">
             <div class="banner-title">
                 <h1>静影沉璧</h1>
@@ -58,5 +70,14 @@
             </header>
         </footer>
     </div>
+    -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#button").click(function () {
+                $("#nav-bar").slideToggle(400);
+            });
+        });
+    </script>
 </body>
 </html>
