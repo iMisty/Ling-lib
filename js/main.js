@@ -1,7 +1,9 @@
 /*Drop Nav Menu*/
 $(document).ready(
-    function(){
+    $.getScript(
+        // TODO
+    ),
     $("#button").click(function () {
         $("#nav-bar").slideToggle(400);
-    });
-});
+    }),
+);
