@@ -14,30 +14,10 @@ ul,li{
 }
 a{
     text-decoration: none;
-    font-size: 1em;
     color: #ffffff;
-}
-h1{
-    font-size: 1.25em;
-}
-h2{
-    font-size: 1.125em;
-}
-h3{
-    font-size: 1em;
-}
-h4{
-    font-size: 0.875em;
-}
-h5{
-    font-size: 0.75em;
-}
-h6{
-    font-size: 0.5em;
 }
 p{
     margin: 0;
     padding: 0;
-    font-size:1em;
     color: #444444;
 }
