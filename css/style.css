@@ -1,11 +1,24 @@
 /*CSS written by JingYi21*/
-
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: url(http://pic1.win4000.com/wallpaper/2017-10-14/59e1cf138fbf4.png);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
 /* ==========================================================================
   Header
  ============================================================================ */
 #header{
     width: 100%;
     border-bottom: 1px solid rgba(0,0,0,0.12);
+    background-color: #fff;
 }
 .nav{
     padding-top: 16px;
@@ -31,3 +44,33 @@
 }
 
 
+.title-text{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 30%;
+}
+
+
+#second{
+    column-count: 3;
+    text-align: center;
+    background-color: rgba(0,0,0,0.38);
+}
+.second-text{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.second-text i{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.second-text h2{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+footer{
+    background-color: #fff;
+    padding: 32px 0 32px 0;
+    text-align: center;
+}
