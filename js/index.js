@@ -13,5 +13,4 @@ wrap.style.backgroundImage = "url(" + bg[random] + ")";
 wrap.style.height = height + "px";
 wrap.style.width = width + "px";
 wrap.style.backgroundSize = "cover";
-console.log(height);
 }
