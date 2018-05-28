@@ -5,45 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="img/favicon.ico">
+<!--
     <script src="js/index.js"></script>
+-->
     <title>Home</title>
     <style>
         html,body{padding: 0;margin: 0;width: 100%;height: 100%;}
         #const {
             display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
             align-items: center;
             justify-items: center;
-            flex-direction: column;
             width: 100%;
             height: 100%;
-            background-color: #222;
+        }
+        .left{
+            background-color: #420e67;
+            color: #fc3;
+        }
+        .right{
+            background-color: #fc3;
+            color: #420e67;
+        }
+        .wrap{
+            display: inline-block;
+            width: 50%;
+            height: 100%;
+            margin: auto;
         }
 
-        #icon{
-            height: 128px;
-            width: 128px;
-            padding: 20px;
-            color: #fff;
-        }
-        #icon img{
-            max-width: 128px;
-            max-height: 128px;
-            border-radius: 50%;
-        }
-        #about{
-            padding: 20px;
-            background: #393;
-            color: #fff;
-        }
     </style>
 </head>
 
 <body>
     <div id="const">
-        <section id="icon">
-            <img src="./img/icon.png" alt="icon">
+        <section class="wrap left">
+            <h4>Lorem ipsum</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nobis, quaerat? Fugiat ipsam maxime necessitatibus quisquam quos. Ad architecto cumque illo ipsam laborum, molestiae pariatur perspiciatis rerum sequi voluptas voluptatem?</p>
         </section>
-        <section id="about">
+        <section class="wrap right">
             <h4>Lorem ipsum</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem error doloribus illo sint reiciendis cumque asperiores iure, quae voluptates optio similique soluta maxime! Maiores, dolores. Delectus saepe ullam sed sint.</p>
         </section>
