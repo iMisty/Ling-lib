@@ -1,5 +1,6 @@
 html,body{padding: 0;margin: 0;width: 100%;height: 100%;}
-a{text-decoration: none}
+a{display: block;text-decoration: none;font-weight: 600;}
+ul,li{list-style-type: none}
 #const {
     display: flex;
     flex-wrap: wrap;
@@ -10,15 +11,15 @@ a{text-decoration: none}
     height: 100%;
 }
 .left{
-    background-color: #420e67;
-    color: #fc3;
+    display: inline-block;
+    background-color: #12d8fa;
+    color: #fff;
 }
 .right{
-    background-color: #fc3;
+    background-color: #fff;
     color: #420e67;
 }
 .wrap{
-    display: inline-block;
     position: relative;
     width: 50%;
     height: 100%;
@@ -55,4 +56,16 @@ a{text-decoration: none}
     position: absolute;
     bottom: 6rem;
     width: 100%;
+}
+
+/* Right */
+.list{
+    display: block;
+    margin-top: 25%;
+
+}
+.right a{
+    font-size: 3.2rem;
+    color: #420e67;
+    padding: 1rem 0;
 }
