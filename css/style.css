@@ -1,76 +1,70 @@
-/*CSS written by JingYi21*/
-.no-padding{
-    padding-left: 0;
-    padding-right: 0;
-}
-body{
-    height: 100%;
-    width: 100%;
-    background: url(http://pic1.win4000.com/wallpaper/2017-10-14/59e1cf138fbf4.png);
-    background-repeat: no-repeat;
-    overflow-x: hidden;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-/* ==========================================================================
-  Header
- ============================================================================ */
+/* Reset */
+html,body{padding: 0;margin: 0;width: 100%;height: 100%;}
+a{text-decoration: none;color: #fff;}
+ul{margin: 0}
+li{list-style-type: none;display: inline-block;}
+/* Header */
 #header{
+    position: fixed;
+    height: 60px;
     width: 100%;
-    border-bottom: 1px solid rgba(0,0,0,0.12);
-    background-color: #fff;
+    box-shadow: 0 1px 5px #ddd;
 }
-.nav{
-    padding-top: 16px;
-    padding-bottom: 16px;
+.header{z-index: 9}
+#logo{
+    float: left;
+    transition: .24s ease;
+}
+#logo:hover{
+    background-color: #555;
+    transition: .24s ease;
 }
 #logo a{
-    width: 100%;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    text-align: center;
-    text-decoration: none;
+    display: block;
     color: rgba(0,0,0,0.87);
-    transition-duration: 0.6s;
+    line-height: 60px;
+    letter-spacing: .1em;
+    font-size: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-right: 1px solid rgba(0,0,0,0.12);
+    transition: .24s ease;
 }
 #logo a:hover{
-    font-size: 1.2em;
-    transition-duration: 0.6s;
+    color: #ddd;
+    transition: .24s ease;
 }
-#nav a{
-    text-decoration: none;
-    padding: 0 6px 0 6px;
+
+#text{
+    display: inline-block;
+    padding-left: 20px;
+}
+.random{
+    color: rgba(0,0,0,0.87);
+    line-height: 30px;
+    letter-spacing: .1em;
+}
+#buttons{
+    float: right;
+    padding-right: 2%;
+}
+#buttons a{
     color: rgba(0,0,0,0.54);
+    line-height: 60px;
+    padding: 0 10px 0 6px;
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: #f77b83;
+    line-height: 60px;
+}
+#nav ul li{
+    float: right;
+    padding-right: 2%;
 }
 
+/* Wrap */
 
-.title-text{
-    text-align: center;
-    padding-top: 10%;
-    padding-bottom: 30%;
-}
-
-
-#second{
-    column-count: 3;
-    text-align: center;
-    background-color: rgba(0,0,0,0.38);
-}
-.second-text{
-    padding-top: 48px;
-    padding-bottom: 48px;
-}
-.second-text i{
-    padding-top: 18px;
-    padding-bottom: 18px;
-}
-.second-text h2{
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-
-footer{
-    background-color: #fff;
-    padding: 32px 0 32px 0;
-    text-align: center;
-}
+/* Footer */
