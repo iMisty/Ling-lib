@@ -1,8 +1,4 @@
 $(document).ready(function(){
-    $('#fullpage').fullpage({
-        menu: '#menu',
-        anchors: ['index','work','blog','about']
-    });
     changeBG();
 });
 
@@ -17,7 +13,7 @@ function changeBG(){
         "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524994510482&di=89731a4d584d2d83d49340eaee4827c3&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D204ea0a304f41bd5ce5ee0b739b3ebbe%2Fac6eddc451da81cb648bc4455866d016082431cc.jpg"
     ];
     console.log(random);
-    wrap.style.backgroundImage = "url(" + bg[random] + ")";
+    wrap.style.backgroundImage = `url(${bg[random]})`;
     wrap.style.height = height + "px";
     wrap.style.width = width + "px";
     wrap.style.backgroundSize = "cover";
