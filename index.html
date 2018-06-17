@@ -7,9 +7,10 @@
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<!--
-    <script src="js/index.js"></script>
--->
+    <link href="https://cdn.bootcss.com/fullPage.js/2.9.7/jquery.fullpage.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/fullPage.js/2.9.7/vendors/jquery.easings.min.js"></script>
+    <script src="https://cdn.bootcss.com/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
     <title>Home</title>
 </head>
 <body>
@@ -35,7 +36,12 @@
             </ul>
         </nav>
     </header>
-    <div id="wrap"></div>
+    <div id="fullpage">
+        <section class="wrap" id="const"></section>
+        <section class="wrap"></section>
+        <section class="wrap"></section>
+    </div>
     <footer id="footer"></footer>
+    <script src="js/index.js"></script>
 </body>
 </html>
