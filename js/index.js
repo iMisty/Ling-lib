@@ -1,9 +1,12 @@
 $(document).ready(function(){
-    $('#fullpage').fullpage();
+    $('#fullpage').fullpage({
+        menu: '#menu',
+        anchors: ['index','work','blog','about']
+    });
     changeBG();
 });
 
-
+/* Change Background */
 function changeBG(){
     const wrap = document.getElementById('const');
     const random = Math.floor(Math.random()*3);
@@ -18,4 +21,12 @@ function changeBG(){
     wrap.style.height = height + "px";
     wrap.style.width = width + "px";
     wrap.style.backgroundSize = "cover";
+}
+/*
+* 切换是否显示导航条
+* 按钮位置：#button > a
+*/
+function changeNav(){
+    const nav = $('#nav');
+    nav.fadeToggle();
 }
