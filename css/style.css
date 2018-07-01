@@ -65,15 +65,34 @@ header{
 }
 .inner-main{
     flex-direction: column;
-    margin: 12.5% 0;
+    margin: 10% 0;
     width: 50%;
     height: 100%;
 }
 .inner-main h1{
+    font-size: 2.4em;
     font-weight: 700;
+    text-transform: uppercase;
     color: #ffffff;
+}
+.inner-main p{
+    font-size: 1.2em;
+    color: #ffffff;
+}
+.inner-main a{
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
 }
 .inner-plane{
     flex-direction: column;
-    margin: 12.5% 0;
+    margin: 10% 0;
+    font-size: 20em;
+    color: #ffffff;
+}
+
+/* Container */
+.container{
+    
 }
