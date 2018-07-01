@@ -65,7 +65,7 @@ header{
 }
 .inner-main{
     flex-direction: column;
-    margin: 10% 0;
+    margin: 5% 0;
     width: 50%;
     height: 100%;
 }
@@ -87,7 +87,7 @@ header{
 }
 .inner-plane{
     flex-direction: column;
-    margin: 10% 0;
+    margin: 5% 0;
     font-size: 20em;
     color: #ffffff;
 }
