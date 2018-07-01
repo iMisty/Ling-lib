@@ -94,5 +94,49 @@ header{
 
 /* Container */
 .container{
-    
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #f7f7f7;
+}
+.support{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 92%;
+    text-align: center;
+    margin: -160px auto 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 5px #999;
+}
+.support-list{
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.support-ul li{
+    padding: 20px 40px;
+}
+.support-text{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.support-text p{
+    width: 70%;
+}
+.support-icon{
+    font-size: 10em;
+    padding: 40px 0;
 }
