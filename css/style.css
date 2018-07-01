@@ -166,3 +166,50 @@ header{
     margin: 48px 0;
     border: 1px solid rgba(0,0,0,0.4);
 }
+
+.third-works{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    width: 92%;
+    margin: 0 auto;
+}
+.third-works-list{
+    width: 32%;
+    padding:36px 0;
+    margin-bottom: 36px;
+    text-align: center;
+    background-color: #fff;
+}
+.u-1of3{
+    flex: 0 0 32%;
+}
+
+.forth-answer{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    width: 92%;
+    margin: 0 auto;
+}
+.forth-answer h2{
+    line-height: 20px;
+}
+.button{
+    padding: 4px 40px;
+    line-height: 50px;
+    font-size: 1.2em;
+    background-color: transparent;
+    border: 2px solid #447cb7;
+    border-radius: 96px;
+    color: #447cb7;
+}
+.primary{
+    background-color: #447cb7;
+    color: #fff;
+}
