@@ -1,4 +1,7 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 770px) {
+    html,body{
+        overflow: hidden;
+    }
     .active{
         font-size: 1.6em;
     }
@@ -35,19 +38,19 @@
         margin-top: 1.6em;
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 770px) {
     .TY-size{
         font-size: 2em;
     }
     .TY-container{
         flex-direction: column;
+        width: 96%;
     }
     .TY-left{
         border-radius: 10px 10px 0 0;
     }
     .TY-icon{
         max-height: 100px;
-        margin-top: -4.8em;
     }
     .TY-icon img{
         width: 100px;
@@ -66,9 +69,6 @@
     }
     nav li a {
         font-size: 1em;
-    }
-    .TY-title{
-        margin-top: 1em;
     }
     .TY-title h2{
         font-size: 1.2em;
