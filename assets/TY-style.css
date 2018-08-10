@@ -42,12 +42,18 @@
     .TY-container{
         flex-direction: column;
     }
+    .TY-left{
+        border-radius: 10px 10px 0 0;
+    }
     .TY-icon{
         max-height: 100px;
         margin-top: -4.8em;
     }
     .TY-icon img{
         width: 100px;
+    }
+    .TY-right{
+        border-radius: 0 0 10px 10px;
     }
     nav{
         display: flex;
