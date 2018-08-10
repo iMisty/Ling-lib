@@ -1,0 +1,74 @@
+@media only screen and (min-width: 768px) {
+    .active{
+        font-size: 1.6em;
+    }
+    .TY-size{
+        font-size: 3em;
+    }
+    .TY-container{
+        flex-direction: row;
+        width: 48em;
+    }
+    .TY-left{
+        width: 24%;
+        border-radius: 10px 0px 0 10px;
+    }
+    .TY-icon{
+        max-height: 140px;
+    }
+    .TY-right{
+        border-radius: 0 10px 10px;
+    }
+    nav{
+        margin-top: 1.2em;
+    }
+    nav li{
+        padding: .8em 0;
+    }
+    nav li a {
+        font-size: 1.2em;
+    }
+    .TY-title{
+        margin-top: 2.4em;
+    }
+    .TY-items{
+        margin-top: 1.6em;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .TY-size{
+        font-size: 2em;
+    }
+    .TY-container{
+        flex-direction: column;
+    }
+    .TY-icon{
+        max-height: 100px;
+        margin-top: -4.8em;
+    }
+    .TY-icon img{
+        width: 100px;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        padding-top: .4em;
+    }
+    nav li{
+        width: 50%;
+        padding: 1.2em 0;
+    }
+    nav li a {
+        font-size: 1em;
+    }
+    .TY-title{
+        margin-top: 1em;
+    }
+    .TY-title h2{
+        font-size: 1.2em;
+    }
+    #hitokoto{
+        width: 80%;
+        margin: 2em auto;
+    }
+}
