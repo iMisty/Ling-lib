@@ -1,9 +1,13 @@
 @media only screen and (min-width: 770px) {
     html,body{
         overflow: hidden;
+        background-size: cover;
     }
     .active{
         font-size: 1.6em;
+    }
+    main{
+        height: 100%;
     }
     .TY-size{
         font-size: 3em;
@@ -11,6 +15,7 @@
     .TY-container{
         flex-direction: row;
         width: 48em;
+        height: 32em;
     }
     .TY-left{
         width: 24%;
@@ -44,6 +49,7 @@
     }
     .TY-container{
         flex-direction: column;
+        margin: 2.4em;
         width: 96%;
     }
     .TY-left{
