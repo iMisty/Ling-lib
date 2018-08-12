@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cmn-Hans">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,49 +18,84 @@
                 </div>
                 <nav>
                     <li>
-                        <a href="#" class="active">Home</a>
+                        <a class="active" goto="home">Home</a>
                     </li>
                     <li>
-                        <a href="#">Archives</a>
+                        <a goto="archives">Archives</a>
                     </li>
                     <li>
-                        <a href="#">Game</a>
+                        <a goto="game">Game</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a goto="About">About</a>
                     </li>
                 </nav>
             </section>
-            <section class="TY-right">
-                <header class="TY-title">
-                    <h2>TY - Neko House</h2>
-                </header>
-                <div class="TY-items">
-                    <a href="#">
-                        <i class="fa TY-size fa-home"></i>
-                        <p>HomePage</p>
-                    </a>
-                    <a href="#">
-                        <i class="fa TY-size fa-google-plus"></i>
-                        <p>Google+</p>
-                    </a>
-                    <a href="#">
-                        <i class="fa TY-size fa-github"></i>
-                        <p>GitHub</p>
-                    </a>
-                    <a href="#">
-                        <i class="fa TY-size fa-twitter"></i>
-                        <p>Twitter</p>
-                    </a>
-                    <a href="#">
-                        <i class="fa TY-size fa-telegram"></i>
-                        <p>Telegram</p>
-                    </a>
-                    <a href="#">
-                        <i class="fa TY-size fa-envelope"></i>
-                        <p>E-mail</p>
-                    </a>
-                </div>
+            <section class="TY-right" id="TY-right">
+                <section id="home" class="TY-right-home TY-right">
+                    <header class="TY-title">
+                        <h2>Simple Title</h2>
+                    </header>
+                    <div class="TY-items">
+                        <a href="#" id="TY-items-link-0">
+                            <i class="fa TY-size fa-home"></i>
+                            <p>HomePage</p>
+                        </a>
+                        <a href="#" id="TY-items-link-1">
+                            <i class="fa TY-size fa-google-plus"></i>
+                            <p>Google+</p>
+                        </a>
+                        <a href="#" id="TY-items-link-2">
+                            <i class="fa TY-size fa-github"></i>
+                            <p>GitHub</p>
+                        </a>
+                        <a href="#" id="TY-items-link-3">
+                            <i class="fa TY-size fa-twitter"></i>
+                            <p>Twitter</p>
+                        </a>
+                        <a href="#" id="TY-items-link-4">
+                            <i class="fa TY-size fa-telegram"></i>
+                            <p>Telegram</p>
+                        </a>
+                        <a href="#" id="TY-items-link-5">
+                            <i class="fa TY-size fa-envelope"></i>
+                            <p>E-mail</p>
+                        </a>
+                    </div>
+                </section>
+                <section id="game" class="TY-right-game TY-right kita">
+                    <header class="TY-title">
+                            <h2>Simple Title</h2>
+                        </header>
+                    <li>
+                        <p class="TY-game-left">Game<small>jp</small></p>
+                        <p class="TY-game right">123456789</p>
+                    </li>
+                    <li>
+                        <p class="TY-game-left">Game<small>jp</small></p>
+                        <p class="TY-game right">123456789</p>
+                    </li>
+                    <li>
+                        <p class="TY-game-left">Game<small>jp</small></p>
+                        <p class="TY-game right">123456789</p>
+                    </li>
+                    <li>
+                        <p class="TY-game-left">Game<small>jp</small></p>
+                        <p class="TY-game right">123456789</p>
+                    </li>
+                    <li>
+                        <p class="TY-game-left">Game<small>jp</small></p>
+                        <p class="TY-game right">123456789</p>
+                    </li>
+                    <li>
+                        <p class="TY-game-left">Game<small>jp</small></p>
+                        <p class="TY-game right">123456789</p>
+                    </li>
+                    <li>
+                        <p class="TY-game-left">Game<small>jp</small></p>
+                        <p class="TY-game right">123456789</p>
+                    </li>
+                </section>
             </section>
         </div>
         <footer>
@@ -68,5 +103,6 @@
         </footer>
     </main>
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/main.js"></script>
 </body>
 </html>

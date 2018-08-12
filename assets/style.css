@@ -17,6 +17,10 @@ li{
 .active{
     font-weight: bold;
 }
+.TY-right section.kita{
+    display: flex!important;
+    text-align: center;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -49,13 +53,29 @@ main{
 nav li a{
     color: rgba(248,248,248,.8);
 }
+
 .TY-right{
     display: flex;
     flex-direction: column;
     text-align: center;
     flex: 1;
-    background-color: rgba(248,248,248,.6);
+    background-color: rgba(248,248,248,.48);
 }
+#TY-right section{
+    display: none;
+}
+.TY-right-game li{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.TY-game-left,.TY-game-right{
+    padding: 0 1.2em;
+}
+
+
+
 .TY-items{
     display: flex;
     flex-wrap: wrap;
