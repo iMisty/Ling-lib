@@ -1,0 +1,37 @@
+// util.js
+import axios from 'axios';
+// Base
+const Util = {
+    imgPath: 'http://127.0.0.1:8011/img/',
+    apiPath: 'http://127.0.0.1:8010'
+};
+
+// Get Today Stamp
+Util.getTodayTime = function () {
+    const date = new Date();
+    date.setHours(0);
+    date.setMinutes(0);
+    date.setSeconds(0);
+    date.setMilliseconds(0);
+    return date.getTime();
+};
+
+// Get Prev Date
+Util.prevDay = function (timestamp = (new Date()).getTime()) {
+    const date = new Date(timestamp);
+    const year = date.getFullYear();
+    const month = date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1;
+    const day = date.getDate() < 10 ? '0' + date.getDate() : date.getDate();
+    return year + ' '+ month + ' ' + day;
+};
+
+// Ajax
+Util.ajax = axios.create({
+    baseUrl: Util.apiPath
+});
+
+Util.ajax.interceptors.response.use(res => {
+   return res.data; 
+});
+
+export default Util;
