@@ -1,0 +1,40 @@
+.underpants{
+    width:20em;
+    height:13em;
+    background: #82e1ec;
+    margin:0 auto;
+    border-radius:0 0 9em 9em;
+    border:0.7em solid #00373f;
+    overflow:hidden;
+    position:relative;
+    box-shadow:inset 0 1.4em 0 #fff,inset 0 2.1em 0 #00373f;
+    display:inline-block;
+    margin-left:2em;
+}
+
+.underpants:before{
+    content:"";
+    border-radius:35%;
+    position:absolute;
+    width:12em;
+    height:12em;
+    background: #017482;
+    border:0.7em solid #00373f;
+    left:-80px;
+    bottom:-90px;
+    border-radius:50% 50% 0 0;
+    z-index:2;
+}
+.underpants:after{
+    content:"";
+    border-radius:35%;
+    position:absolute;
+    width:12em;
+    height:12em;
+    background: #017482;
+    border:0.7em solid #00373f;
+    right:-80px;
+    bottom:-90px;
+    border-radius:50% 50% 0% 0%;
+    z-index:2;
+}
